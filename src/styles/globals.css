@@ -2,26 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './custom.css';
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary-rgb: 13, 110, 253; /* Bright Blue */
+  --secondary-rgb: 220, 53, 69; /* Vivid Red */
+  --accent-rgb: 255, 193, 7; /* Amber */
+  --neutral-rgb: 108, 117, 125; /* Cool Gray */
+  --background-start-rgb: 52, 58, 64; /* Dark Slate Gray */
+  --background-end-rgb: 33, 37, 41; /* Gunmetal Gray */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --primary-rgb: 0, 123, 255; /* Brighter Blue */
+    --secondary-rgb: 248, 249, 250; /* Off-White */
+    --accent-rgb: 13, 202, 240; /* Cyan */
+    --neutral-rgb: 233, 236, 239; /* Light Gray */
+    --background-start-rgb: 24, 26, 27; /* Darker Gray */
+    --background-end-rgb: 52, 58, 64; /* Dark Slate Gray */
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--primary-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
 }
