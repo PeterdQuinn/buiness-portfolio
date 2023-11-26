@@ -42,6 +42,12 @@ const PastClients = () => {
           <p className="text-sm">Developed decentralized applications showcasing blockchain technology and smart contract development skills.</p>
           <a href="https://dapps-rouge.vercel.app/" target="_blank" rel="noopener noreferrer">Visit Site</a>
         </div>
+        {/* NFT PROJECT */}
+        <div className="client-card hover:shadow-lg transition-shadow p-4 rounded-lg">
+          <h3 className="text-lg font-semibold">Chillsbury Doge Boy</h3>
+          <p className="text-sm">Developed an engaging NFT project platform for Chillsbury Doge Boy, focusing on blockchain integration and a user-friendly interface to facilitate NFT transactions and interactions.</p>
+          <a href="https://www.chillsburydogeboy.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline mt-2 block">Visit Project</a>
+        </div>
       </div>
     </section>
   );
