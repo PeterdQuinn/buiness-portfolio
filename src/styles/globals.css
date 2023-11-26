@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 :root {
   --primary-rgb: 13, 110, 253; /* Bright Blue */
   --secondary-rgb: 220, 53, 69; /* Vivid Red */
@@ -49,4 +47,26 @@ body {
 
 .client-link:active {
   transform: translateY(1px); /* Downward shift when clicked */
+}
+
+/* New styles for parallax-like effect */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Optional: Background images for cards */
+.card {
+  background-image: url('/Port.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.card:hover {
+  background-size: 110%;
 }
