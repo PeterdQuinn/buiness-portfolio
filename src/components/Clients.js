@@ -5,6 +5,13 @@ const PastClients = () => {
     <section id="past-clients" className="container mx-auto p-4">
       <h2 className="text-2xl font-bold mb-4">Past Clients</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        
+        {/* Tri-Tek Electronics */}
+        <div className="client-card">
+          <h3 className="text-lg font-semibold">Tri-Tek Electronics</h3>
+          <p className="text-sm">Enhanced the e-commerce website with SEO optimization and design updates, improving user experience and online visibility.</p>
+          <a href="https://www.tritekelectronics.com/" target="_blank" rel="noopener noreferrer">Visit Site</a>
+        </div>
         {/* Junior's Custom Towing LLC */}
         <div className="client-card">
           <h3 className="text-lg font-semibold">Junior's Custom Towing LLC</h3>
