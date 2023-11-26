@@ -1,14 +1,17 @@
+import Header from '../components/Header';
+import About from '../components/About';
+import Services from '../components/Services';
+import Contact from '../components/Contact';
 
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+const HomePage = () => {
   return (
-    <div className="text-center p-4">
-    <h1 className="text-2xl font-bold">My Portfolio</h1>
-    <p>Welcome to my personal portfolio!</p>
-  </div>
-  
-  )
-}
+    <div>
+      <Header />
+      <About />
+      <Services />
+      <Contact />
+    </div>
+  );
+};
+
+export default HomePage;
