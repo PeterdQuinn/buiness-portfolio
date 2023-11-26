@@ -1,19 +1,18 @@
 // components/Header.js
 
 const Header = () => {
-    return (
-      <header className="bg-primary text-secondary p-4">
-        <nav className="container mx-auto flex justify-between items-center">
-          <div className="text-lg font-bold">Your Brand</div>
-          <div>
-            <a href="#about" className="px-4 hover:text-primary">About</a>
-            <a href="#services" className="px-4 hover:text-primary">Services</a>
-            <a href="#contact" className="px-4 hover:text-primary">Clients</a>
-          </div>
-        </nav>
-      </header>
-    );
-  };
-  
-  export default Header;
-  
+  return (
+    <header className="bg-gray-800 text-white p-4 shadow-md">
+      <nav className="container mx-auto flex justify-between items-center">
+        <div className="text-lg font-bold">Peter Quinn</div>
+        <div className="flex space-x-4">
+          <a href="#about" className="hover:text-blue-500 transition-colors duration-300">About</a>
+          <a href="#services" className="hover:text-blue-500 transition-colors duration-300">Services</a>
+          <a href="#past-clients" className="hover:text-blue-500 transition-colors duration-300">Clients</a>
+        </div>
+      </nav>
+    </header>
+  );
+};
+
+export default Header;
