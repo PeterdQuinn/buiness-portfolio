@@ -18,6 +18,8 @@ const About = () => {
           <a href="https://www.linkedin.com/in/peterdquinn31/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">LinkedIn</a>
           <span className="mx-2">|</span>
           <a href="https://github.com/PeterdQuinn" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">GitHub</a>
+          <span className="mx-2">|</span>
+          <a href="/resume.pdf" download className="text-blue-600 hover:underline">Download Resume</a>
         </div>
         <div className="mt-6">
           <a href="mailto:Peterdquinnsr@gmail.com" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
@@ -26,7 +28,7 @@ const About = () => {
         </div>
       </div>
       <div className="flex-1">
-      <img src="/buisness.jpeg" alt="Peter Quinn" className="max-w-full h-auto rounded-lg shadow-lg"/>
+        <img src="/buisness.jpeg" alt="Peter Quinn" className="max-w-full h-auto rounded-lg shadow-lg"/>
       </div>
     </section>
   );
