@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  /* Light mode variables */
   --primary-rgb: 13, 110, 253; /* Bright Blue */
   --secondary-rgb: 220, 53, 69; /* Vivid Red */
   --accent-rgb: 255, 193, 7; /* Amber */
@@ -10,10 +11,12 @@
   --background-start-rgb: 52, 58, 64; /* Dark Slate Gray */
   --background-end-rgb: 33, 37, 41; /* Gunmetal Gray */
   --hover-color-rgb: 255, 255, 255; /* White for hover */
+  --card-text-color: 0, 0, 0; /* Black for card text */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    /* Dark mode variables */
     --primary-rgb: 0, 123, 255; /* Brighter Blue */
     --secondary-rgb: 248, 249, 250; /* Off-White */
     --accent-rgb: 13, 202, 240; /* Cyan */
@@ -21,6 +24,7 @@
     --background-start-rgb: 24, 26, 27; /* Darker Gray */
     --background-end-rgb: 52, 58, 64; /* Dark Slate Gray */
     --hover-color-rgb: 255, 255, 255; /* White for hover */
+    --card-text-color: 255, 255, 255; /* White for card text in dark mode */
   }
 }
 
@@ -32,6 +36,7 @@ body {
     rgb(var(--background-end-rgb))
   );
 }
+
 
 .client-link {
   color: #00BFFF; /* Bright blue color */
@@ -62,7 +67,7 @@ body {
 
 /* Optional: Background images for cards */
 .card {
-  background-image: url('/Port.jpg');
+  background-image: url('/.jpg'); /* Replace with your image path */
   background-size: cover;
   background-position: center;
 }
