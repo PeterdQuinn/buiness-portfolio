@@ -14,11 +14,12 @@ const PastClients = () => {
         </div>
 
         {/* Junior's Custom Towing LLC */}
-        <div className="client-card p-4 bg-client-color rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-          <h3 className="text-lg font-semibold mb-2">Junior's Custom Towing LLC</h3>
-          <p className="text-sm mb-3">Developed and managed the website for this family-owned towing company, enhancing online visibility and customer engagement.</p>
-          <a href="https://www.juniorscustomtowing.com/" target="_blank" rel="noopener noreferrer" className="client-link">Visit Site</a>
-        </div>
+          <div className="client-card p-4 bg-client-color rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+            <h3></h3>
+            <p className="text-sm mb-3">Developed and managed the website for this family-owned towing company, enhancing online visibility and customer engagement.</p>
+            <p className="text-sm mb-3">Developed and managed the website for this family-owned towing company, enhancing online visibility and customer engagement.</p>
+            <a href="https://www.juniorscustomtowing.com/" target="_blank" rel="noopener noreferrer" className="client-link">Visit Site</a>
+          </div>
 
         {/* Nomadic Cooling */}
         <div className="client-card p-4 bg-client-color rounded-lg shadow-lg hover:shadow-xl transition-shadow">
