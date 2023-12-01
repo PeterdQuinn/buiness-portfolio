@@ -15,8 +15,8 @@ const PastClients = () => {
 
         {/* Junior's Custom Towing LLC */}
           <div className="client-card p-4 bg-client-color rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-            <h3></h3>
-            <p className="text-sm mb-3">Developed and managed the website for this family-owned towing company, enhancing online visibility and customer engagement.</p>
+            <h3>Juniors custom towing</h3>
+            <p className="text-sm mb-3"></p>
             <p className="text-sm mb-3">Developed and managed the website for this family-owned towing company, enhancing online visibility and customer engagement.</p>
             <a href="https://www.juniorscustomtowing.com/" target="_blank" rel="noopener noreferrer" className="client-link">Visit Site</a>
           </div>
